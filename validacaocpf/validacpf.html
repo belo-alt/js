@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar CPF</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+<h1>Validar CPF</h1>
+<h3>Digite os 11 números do seu CPF:</h3>
+    </header>
+    <section>
+    <form name="form1">
+        CPF: <input type="text" name="cpf" maxlength="11" onblur="return verificarCPF(this.value)"/>
+    </form>
+    </section>
+    <footer>
+<p>&copy; M@rceloBelo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

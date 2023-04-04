@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+</head>
+<body>
+    <h1>Consultando Nacionalidade</h1>
+    Onde você nasceu:  <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="validar()">
+    <div id="res">
+
+    </div>
+   <script>
+function validar() {
+    var txtpais = window.document.querySelector('input#txtpais')
+    var resultado = window.document.querySelector('div#res')
+    res.innerHTML = `<p>Voce é ${pais}</p>`
+if (pais = 'brasil') { //aqui é o pulo do gato
+    resultado.innerHTML = `<p>Você é Estrangeiro/P>`//true
+    resultado.innerHTML =`<p>Você é Brasileiro</p>` //false
+    }}
+
+
+   </script> 
+</body>
+</html>

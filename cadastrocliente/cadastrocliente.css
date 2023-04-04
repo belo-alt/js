@@ -1,0 +1,17 @@
+.row label {
+    text-align: right;
+    padding-top: 8px;
+}
+
+.row .columns {
+    padding: 0px 1%;
+}
+
+.row input[type="radio"] {
+    margin: 12px 0px !important;
+}
+
+table {
+    margin: 0px 1% 8px 1%;
+    width: 98%;    
+}
